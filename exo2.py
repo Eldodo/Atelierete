@@ -17,8 +17,8 @@ while(continuer):
         ans = input(str(a)+"*"+str(b)+"=?\n")
         res = a*b
     else:
-        while(a==0):
-            a = random.randrange(0,100)
+        while(b==0):
+            b = random.randrange(0,100)
         ans = input(str(a)+"/"+str(b)+"=?\n")
         res = a//b
         
